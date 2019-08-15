@@ -17,6 +17,7 @@ public class WelcomeController {
 	public String welcome(Map<String, Object> model) {
 		model.put("message", this.message);
 		return "welcome";
+		;
 	}
 
 }
